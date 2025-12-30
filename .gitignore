@@ -1,0 +1,39 @@
+# ===========================================
+# User Chatbot - .gitignore
+# ===========================================
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+firebase_key.json
+*credentials*.json
+*secret*.json
+
+# Python
+env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Cache
+.chroma/
+data/
+.cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Unused scripts
+image_uploader.py
