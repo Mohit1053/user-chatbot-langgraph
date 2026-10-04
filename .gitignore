@@ -37,3 +37,5 @@ Thumbs.db
 
 # Unused scripts
 image_uploader.py
+*.pyc
+.mcp.json
